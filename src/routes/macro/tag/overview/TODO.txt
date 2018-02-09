@@ -1,0 +1,7 @@
+1. add filter with  publisherId
+
+if (id) {
+      tags = await axios.post('/macro-tag', {
+        publisherId: id,
+      });
+    }

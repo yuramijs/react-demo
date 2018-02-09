@@ -1,0 +1,6 @@
+{
+  "name": "PublisherCreator",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./PublisherCreator.js"
+}

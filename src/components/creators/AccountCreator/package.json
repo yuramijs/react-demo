@@ -1,0 +1,6 @@
+{
+  "name": "AccountCreator",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AccountCreator.js"
+}

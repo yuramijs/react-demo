@@ -1,0 +1,25 @@
+1. refator redux;
+2. add to menu active route
+5.change this context tag.js
+6.create action get all for admin page
+8. rewrite code to async when resolve problem with return promise
+10. create size component in defintion
+11. cahnge localohost in post to config url
+12. change routing api to /route/command and separate to midules
+15. change post delete to delete
+17. refactor definition  adsmtag.display
+18. resolve proble with custom definition
+20. get data i index not componetns
+22.refactor auth with jwt
+23. create one attach template
+26. check in regiseter rout exist users
+- add components containers
+
+-> refactor routes -
+
+- fix error warning: React depends on requestAnimationFrame. Make sure that you load a polyfill in older browsers. http://fb.me/react-polyfills
+
+
+-----------------------
+
+in the end of project add validation, jest test (components, api), size bundle, render components

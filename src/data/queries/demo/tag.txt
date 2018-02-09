@@ -1,0 +1,43 @@
+1. Fetch Tag:
+
+{
+  tag(id: 1) {
+    id
+  }
+}
+--------------------------------------------------------------
+
+2. Fetch all Tag for specified Macro:
+
+{
+  tagsForMacro(uuid: "ff4c1306-35dd-3cba-a696-7fb3-5183dadb") {
+    id
+  }
+}
+--------------------------------------------------------------
+
+3. Create Tag for specified Macro
+
+{
+  createTagForMacro(macro: "ff4c1306-35dd-3cba-a696-7fb3-5183dadb" name: "name" id: 4) {
+    id
+  }
+}
+--------------------------------------------------------------
+
+4. Delete Tag
+
+{
+  deleteTagForMacro(id: 5) {
+    id
+  }
+}
+---------------------------------------------------------------
+
+5. Update Tag
+
+{
+  updateTag(id: 11, name: "update") {
+    id
+  }
+}

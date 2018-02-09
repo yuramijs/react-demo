@@ -1,0 +1,37 @@
+.macro {
+  &__wrapper {
+    margin-top: 20px;
+    overflow-x: hidden;
+    height: 100%;
+    max-height: 408px;
+  }
+  &__item {
+    transition: background .5s;
+    cursor: pointer;
+    &:hover {
+      background: #d2d3ff;
+    }
+  }
+  &__delete {
+    background-color: #68cdf1;
+    margin: 10px;
+    text-align: center;
+    color: #fff;
+    transition: background-color .5s;
+    &:hover {
+      background-color: #20a8d8;
+    }
+  }
+}
+
+.generateTag {
+  margin: 0 auto;
+  display: block;
+}
+
+.generate {
+  &__wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+}

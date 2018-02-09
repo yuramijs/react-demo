@@ -1,0 +1,12 @@
+.addSize {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color: #fcfcfc;
+  &__button {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ddd;
+    cursor: pointer;
+  }
+}

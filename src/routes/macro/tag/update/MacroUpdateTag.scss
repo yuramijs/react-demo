@@ -1,0 +1,25 @@
+.macro {
+  &__wrapper {
+    margin-top: 20px;
+  }
+  &__definition {
+    &__delete {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 70px;
+      &__button {
+        background-color: #20a8d8;
+        padding: 10px;
+        color: #fff;
+      }
+      &__input {
+        padding-top: 0;
+      }
+      &__label {
+        padding-top: 0;
+      }
+    }
+  }
+}
+

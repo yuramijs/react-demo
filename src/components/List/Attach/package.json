@@ -1,0 +1,6 @@
+{
+  "name": "Attach",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Attach.js"
+}

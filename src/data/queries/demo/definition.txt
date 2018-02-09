@@ -1,0 +1,61 @@
+1. Fetch all Definitions for specified Macro:
+
+{
+  definitions(macro: "ff4c1306-35dd-3cba-a696-7fb3-5183dadb") {
+    id
+    name
+    path
+    size
+    created_at
+  }
+}
+------------------------------------------------
+
+2. Fetch Definition
+
+{
+  definition(id: 3) {
+    id
+    name
+    path
+    size
+    created_at
+  }
+}
+------------------------------------------------
+
+3. Create Definition for specified Macro
+
+{
+  createDefinition(uuid: "ff4c1306-35dd-3cba-a696-7fb3-5183dadb" name: "testName" path: "test Path" size: []) {
+    id
+    name
+    path
+    size
+  }
+}
+--------------------------------------------------
+
+4. Delete Definition
+
+{
+  deleteDefinition(id: 11) {
+    id
+  }
+}
+-----------------------------------------------------
+5. Update Definition
+
+{
+  updateDefinition(id: 10 name: "testName" path: "test Path" size: []) {
+    id
+    name
+    path
+    size
+  }
+}
+
+
+
+
+

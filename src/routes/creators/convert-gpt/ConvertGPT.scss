@@ -1,0 +1,33 @@
+.output {
+  height: 570px;
+  width: 100%;
+  padding: 20px;
+}
+
+.name {
+  &__input {
+    width: 100%;
+  }
+}
+
+.tag {
+  &__textarea {
+    width: 100%;
+    min-height: 500px;
+  }
+}
+
+.close:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.configurationTitle {
+  margin-bottom: 8px;
+}

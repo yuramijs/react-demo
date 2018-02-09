@@ -1,0 +1,29 @@
+1. single macro :
+
+{
+ macro(uuid: "2bea013d-8eb0-07ca-39e5-dd1c-0ee615bc") {
+    uuid
+    name
+    type
+    created_at
+  }
+}
+
+2. all macros:
+
+{macros {uuid name type created_at}}
+
+3. Create Macro
+
+{addMacro(name: "test add new macro") {uuid name}}
+
+4. Deletes Macro
+{deleteMacro(uuid: "806b3268-d73d-df66-ca23-bc9b-0be5f32f") {uuid}}
+
+5. update Macro
+
+{
+ updateMacro(uuid: "fb23f87e-2547-baa2-c007-24dd-9a31b999", name: "adnamii") {
+   uuid
+  }
+}

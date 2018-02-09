@@ -1,0 +1,1 @@
+<script src='https://www.googletagservices.com/tag/js/gpt.js'> googletag.pubads().definePassback('/5706918/mandesiden.dk_dsk_lb1_skn', [[930, 180], [930, 600], [930, 360]]).setTargeting('entry', ['first']).display(); </script>
